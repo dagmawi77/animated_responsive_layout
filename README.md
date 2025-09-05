@@ -13,10 +13,8 @@ A Flutter application demonstrating an animated responsive layout that adapts se
 
 ## Screenshots
 
-> **Note**: Screenshots will be added once the application is running. See the "Taking Screenshots" section below for instructions.
-
 ### Desktop/Web View
-*Screenshot will be added here - `screenshot-desktop.png`*
+![Desktop Screenshot](screenshot-desktop.png)
 
 The desktop version features a two-column layout with:
 - **Left Panel**: Navigation rail, search bar, and message list
@@ -26,7 +24,7 @@ The desktop version features a two-column layout with:
 - **Interactive Elements**: Star buttons, reply options, and floating action button
 
 ### Mobile View
-*Screenshot will be added here - `screenshot-mobile.png`*
+![Mobile Screenshot](screenshot-mobile.png)
 
 The mobile version automatically switches to a single-column layout with:
 - **Bottom Navigation Bar**: Easy thumb navigation with Inbox, Articles, Messages, and Groups
