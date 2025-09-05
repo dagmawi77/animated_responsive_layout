@@ -13,8 +13,10 @@ A Flutter application demonstrating an animated responsive layout that adapts se
 
 ## Screenshots
 
+> **Note**: Screenshots will be added once the application is running. See the "Taking Screenshots" section below for instructions.
+
 ### Desktop/Web View
-![Desktop Screenshot](screenshot-desktop.png)
+*Screenshot will be added here - `screenshot-desktop.png`*
 
 The desktop version features a two-column layout with:
 - **Left Panel**: Navigation rail, search bar, and message list
@@ -24,7 +26,7 @@ The desktop version features a two-column layout with:
 - **Interactive Elements**: Star buttons, reply options, and floating action button
 
 ### Mobile View
-![Mobile Screenshot](screenshot-mobile.png)
+*Screenshot will be added here - `screenshot-mobile.png`*
 
 The mobile version automatically switches to a single-column layout with:
 - **Bottom Navigation Bar**: Easy thumb navigation with Inbox, Articles, Messages, and Groups
@@ -138,14 +140,35 @@ The mobile version automatically switches to a single-column layout with:
 To capture screenshots for the README:
 
 1. **Desktop Screenshot:**
-   - Run the app in Chrome or desktop mode
-   - Resize browser window to show desktop layout
-   - Take screenshot and save as `screenshot-desktop.png`
+   ```bash
+   flutter run -d chrome
+   ```
+   - Resize browser window to show desktop layout (wide screen)
+   - Take screenshot of the full application
+   - Save as `screenshot-desktop.png` in the project root
 
 2. **Mobile Screenshot:**
-   - Run the app on mobile device or emulator
-   - Or use Chrome DevTools mobile view
+   ```bash
+   flutter run -d android
+   # OR for iOS (macOS only):
+   flutter run -d ios
+   ```
+   - Run on mobile device or emulator
+   - Or use Chrome DevTools mobile view (F12 → Device toolbar)
+   - Take screenshot of the mobile layout
+   - Save as `screenshot-mobile.png` in the project root
+
+3. **Alternative - Chrome DevTools Mobile View:**
+   - Run `flutter run -d chrome`
+   - Press F12 to open DevTools
+   - Click the device toolbar icon (mobile/tablet icon)
+   - Select a mobile device (e.g., iPhone 12, Pixel 5)
    - Take screenshot and save as `screenshot-mobile.png`
+
+**After taking screenshots:**
+- The README will automatically display them
+- Make sure the image files are in the project root directory
+- Use PNG format for best quality
 
 ## Project Structure
 
