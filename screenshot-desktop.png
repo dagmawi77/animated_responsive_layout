@@ -1,0 +1,15 @@
+# Desktop Screenshot Placeholder
+
+This is a placeholder for the desktop application screenshot.
+
+To add the desktop screenshot:
+1. Take a screenshot of your running application on desktop/web
+2. Save it as `screenshot-desktop.png` in the project root
+3. The README.md will automatically display it
+
+The desktop screenshot should show:
+- Two-column layout (navigation + conversation view)
+- Navigation rail on the left
+- Message list and conversation details
+- Search bar and floating action button
+- Rich content with images and attachments

@@ -14,18 +14,24 @@ A Flutter application demonstrating an animated responsive layout that adapts se
 ## Screenshots
 
 ### Desktop/Web View
-![Application Screenshot](screenshot.png)
+![Desktop Screenshot](screenshot-desktop.png)
 
-The application features a two-column layout with:
+The desktop version features a two-column layout with:
 - **Left Panel**: Navigation rail, search bar, and message list
 - **Right Panel**: Detailed conversation view with message threads
 - **Responsive Elements**: Navigation adapts based on screen size
+- **Rich Content**: Embedded images and attachments in messages
+- **Interactive Elements**: Star buttons, reply options, and floating action button
 
 ### Mobile View
-The app automatically switches to a single-column layout on smaller screens with:
-- Bottom navigation bar
-- Collapsible navigation rail
-- Optimized touch interactions
+![Mobile Screenshot](screenshot-mobile.png)
+
+The mobile version automatically switches to a single-column layout with:
+- **Bottom Navigation Bar**: Easy thumb navigation with Inbox, Articles, Messages, and Groups
+- **Collapsible Navigation Rail**: Hamburger menu for additional options
+- **Touch-Optimized Interface**: Larger touch targets and swipe gestures
+- **Responsive Message Cards**: Optimized for smaller screens
+- **Floating Action Button**: Quick access to compose new messages
 
 ## Installation
 
@@ -92,12 +98,12 @@ The app automatically switches to a single-column layout on smaller screens with
 
 5. **Run the application**
    
-   **For Web (Chrome):**
+   **For Web (Chrome) - Desktop View:**
    ```bash
    flutter run -d chrome
    ```
    
-   **For Web (Edge):**
+   **For Web (Edge) - Desktop View:**
    ```bash
    flutter run -d edge
    ```
@@ -107,12 +113,12 @@ The app automatically switches to a single-column layout on smaller screens with
    flutter run -d windows
    ```
    
-   **For Android:**
+   **For Android - Mobile View:**
    ```bash
    flutter run -d android
    ```
    
-   **For iOS (macOS only):**
+   **For iOS (macOS only) - Mobile View:**
    ```bash
    flutter run -d ios
    ```
@@ -126,6 +132,20 @@ The app automatically switches to a single-column layout on smaller screens with
    ```bash
    flutter run -d linux
    ```
+
+### Taking Screenshots
+
+To capture screenshots for the README:
+
+1. **Desktop Screenshot:**
+   - Run the app in Chrome or desktop mode
+   - Resize browser window to show desktop layout
+   - Take screenshot and save as `screenshot-desktop.png`
+
+2. **Mobile Screenshot:**
+   - Run the app on mobile device or emulator
+   - Or use Chrome DevTools mobile view
+   - Take screenshot and save as `screenshot-mobile.png`
 
 ## Project Structure
 
