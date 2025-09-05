@@ -1,0 +1,15 @@
+# Mobile Screenshot Placeholder
+
+This is a placeholder for the mobile application screenshot.
+
+To add the mobile screenshot:
+1. Take a screenshot of your running application on mobile device or mobile emulator
+2. Save it as `screenshot-mobile.png` in the project root
+3. The README.md will automatically display it
+
+The mobile screenshot should show:
+- Single-column layout
+- Bottom navigation bar
+- Message list optimized for mobile
+- Touch-friendly interface elements
+- Responsive design adaptations
